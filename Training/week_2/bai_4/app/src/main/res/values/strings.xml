@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">bai_4</string>
+    <string name="format">Format</string>
+    <string name="hint_input">enter your number (only get decimal)</string>
+    <string name="background">Back ground</string>
+    <string name="center">center</string>
+    <string name="rbt_odd">odd</string>
+    <string name="rbt_even">even</string>
+    <string name="rbt_both">both</string>
+    <string name="submit">SHOW RESULT</string>
+    <string name="textColor">text color</string>
+</resources>
