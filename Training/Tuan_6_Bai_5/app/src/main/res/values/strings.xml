@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">"chơi chơi" Phone Utility</string>
-    <string name="enterName">Name: </string>
-    <string name="enterNumber">Number: </string>
-    <string name="btnEnter">Save contact</string>
-</resources>
