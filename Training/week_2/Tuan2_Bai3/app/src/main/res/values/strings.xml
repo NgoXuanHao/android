@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tuan2Ex3</string>
+    <string name="Cat">Cat</string>
+    <string name="Dog">Dog</string>
+    <string name="Dragon">Dragon</string>
+    <string name="Bike">Bike</string>
+    <string name="Text">Choose one!</string>
+</resources>
