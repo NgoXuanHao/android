@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TracNghiem</string>
+    <string name="login">Đăng nhập</string>
+    <string name="logout">Thoát</string>
+    <string name="cau1">Câu 1: Nước nào thuộc Đông Nam Á? </string>
+    <string name="cau2">Câu 2: Trẻ em ngủ bao nhiêu tiếng là đủ? </string>
+    <string name="cau3">Câu 3: Bao nhiêu tuổi được kết hôn?</string>
+    <string-array name="spinner">
+        <item>ĐÚNG</item>
+        <item>SAI</item>
+    </string-array>
+    <string name="retur">KẾT QUẢ CỦA BẠN</string>
+    <string name="cau4">Câu 4: Hạnh phúc của một gia đình là gì? </string>
+    <string name="cau5">Câu 5: Xe Honda Winner có dung tích bao nhiêu cc? </string>
+</resources>
