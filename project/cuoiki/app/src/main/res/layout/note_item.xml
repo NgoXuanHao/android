@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:clickable="false"
+        />
+
+    <TextView
+        android:id="@+id/note_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/note_content"
+        android:layout_below="@+id/note_title"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/note_date"
+        android:layout_below="@+id/note_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_below="@+id/note_date"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#1C86EE"/>
+
+
+
+</RelativeLayout>
